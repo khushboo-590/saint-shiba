@@ -32,8 +32,9 @@
     background-size: cover;
     top: 0;
     right: 0;
-    width: 100%;}
-    
+    width: 100%;
+}
+
 
 
 
@@ -74,6 +75,10 @@
     font-weight: 700;
     color: #F06500;
 
+}
+
+.orange {
+    color: #F06500;
 }
 
 .text-decoration {
@@ -285,6 +290,43 @@
 
 }
 
+.buying {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    opacity: 70%;
+}
+
+.number {
+
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.border {
+    border: 1px solid;
+
+    border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+    backdrop-filter: blur(32px);
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-50{
+    gap: 50px;
+}
 @media(max-width:991.98px) {
     .menu-list {
         flex-direction: column;
@@ -374,13 +416,15 @@
         line-height: 51.44px;
         text-align: center;
     }
-        .btn-head {
-            font-size: 18px;
-            line-height: 25px;
-        }
-   .hidden{
-    margin-top: 50px;
-   }
+
+    .btn-head {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .hidden {
+        margin-top: 50px;
+    }
 }
 
 @media (max-width:575.98px) {
@@ -392,22 +436,22 @@
     .para-2 {
         font-size: 14px;
     }
-       
-    
-        .btn-btm {
-            font-size:16px ;
-            line-height: 24px;
-            padding-top: 30px;
-        }
-    
-        .box {
-            margin-bottom: 20px;
-        }
-    
-        .circle {
-            width: 61px;
-            height: 61px;
-        }
+
+
+    .btn-btm {
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 30px;
+    }
+
+    .box {
+        margin-bottom: 20px;
+    }
+
+    .circle {
+        width: 61px;
+        height: 61px;
+    }
 }
 
 @media (max-width:320px) {
@@ -415,11 +459,12 @@
         font-size: 48px;
         line-height: 55px;
     }
-         .btn-2 {
-            margin-left: 65px;
-            margin-bottom: 20px;
-           
-         }
+
+    .btn-2 {
+        margin-left: 65px;
+        margin-bottom: 20px;
+
+    }
 
 }
 
@@ -429,4 +474,3 @@
         line-height: 55px;
     }
 } */
-
