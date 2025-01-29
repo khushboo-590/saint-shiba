@@ -43,7 +43,9 @@
 }
 
 
-
+.mb-10{
+    margin-bottom: 10px;
+}
 
 .min-vh-100 {
     min-height: 100%;
@@ -193,7 +195,7 @@
 
 .info {
     padding: 5px 5px;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-left: 100px;
     border: 1px solid gray;
     box-sizing: border-box;
