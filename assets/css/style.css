@@ -183,6 +183,7 @@
 .info {
     box-sizing: border-box;
     margin-left: 100px;
+    margin-top: 50px;
     gap: 10px;
     background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
     backdrop-filter: blur(22px);
@@ -388,7 +389,7 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    right: -14px;
+    right: -16px;
     top: 10px;
     border-radius: 50%;
     background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
@@ -404,7 +405,7 @@
 }
 
 .right::after {
-    left: -13px;
+    left: -15px;
 }
 
 .phase {
@@ -511,7 +512,10 @@
     right: 0;
 
 }
-
+.blur{
+    right:0;
+   
+}
 
 @media(max-width:1199.98px) {
     .info {
