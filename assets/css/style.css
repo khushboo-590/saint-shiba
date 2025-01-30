@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(/assets/css/root.css);
 
 * {
     padding: 0;
@@ -8,8 +9,8 @@
     box-sizing: border-box;
 }
 
-.max-w-1140 {
-    max-width: 1140px;
+.max-w-1320 {
+    max-width: 1320px;
 }
 
 .color-black {
@@ -38,17 +39,7 @@
     top: 0;
     right: 0;
     width: 100%;
-    /* background: #F06500; */
 
-}
-
-
-.mb-10{
-    margin-bottom: 10px;
-}
-
-.min-vh-100 {
-    min-height: 100%;
 }
 
 .nav-top {
@@ -111,12 +102,11 @@
 
 .btn {
 
-    font-weight: 600;
     background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
     border-radius: 23.5px;
     padding: 7px 23px;
     border: none;
-    font-family: Poppins;
+    font-family: "Poppins", serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 32.4px;
@@ -168,16 +158,13 @@
 }
 
 .btn-2 {
-    font-family: "Poppins", serif;
+
     font-size: 22px;
     font-weight: 600;
     line-height: 33px;
-    text-align: left;
-    background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
     border-radius: 33px;
     padding: 12px 32px;
-    border: none;
-    color: #FFFFFF;
+
 
 }
 
@@ -194,21 +181,20 @@
 }
 
 .info {
-    padding: 5px 5px;
-    margin-top: 50px;
-    margin-left: 100px;
-    border: 1px solid gray;
     box-sizing: border-box;
+    margin-left: 100px;
     gap: 10px;
     background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
-    backdrop-filter: blur(16px);
-
-
-}
-
-.max-w-1320 {
+    backdrop-filter: blur(22px);
+    transform: translateY(-100px);
+    padding: 10px;
+    border: 1px solid grey;
+    z-index: 4;
+    border-radius: 10px;
     max-width: 1320px;
 }
+
+
 
 .mb-24 {
     margin-bottom: 24px;
@@ -217,11 +203,9 @@
 .max-w-1272 {
     max-width: 1272px;
 
+
 }
 
-.font-size {
-    font-size: 18px;
-}
 
 .w-100 {
     width: 100%;
@@ -238,7 +222,7 @@
 }
 
 .para-2 {
-    font-family: Poppins;
+    font-family: "Poppins", serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 32.4px;
@@ -302,13 +286,6 @@
     padding-top: 40px;
 }
 
-.hidden {
-    right: 0;
-    overflow: auto;
-    object-fit: contain;
-    width: 100%;
-
-}
 
 .buying {
     font-family: "Poppins", serif;
@@ -321,26 +298,17 @@
 }
 
 .number {
-
     font-family: "Poppins", serif;
     font-size: 28px;
     font-weight: 600;
     line-height: 42px;
     text-align: left;
     color: #FFFFFF;
-}
 
-
-.filter {
-    backdrop-filter: none;
 }
 
 .gap-20 {
     gap: 20px;
-}
-
-.gap-50 {
-    gap: 50px;
 }
 
 .mt-40 {
@@ -353,39 +321,33 @@
 
 .green {
     background: #00E396;
-    border-radius: 4px;
 }
 
 .orang {
     background-color: #F06500;
-    border-radius: 4px;
 }
 
 .purple {
     background: #8B35E2;
-    border-radius: 4px;
 }
 
 .skyblue {
     background: #00B2FF;
-    ;
-    border-radius: 4px;
 }
 
 .light-orange {
     background: #FFA800;
-    border-radius: 4px;
 
 }
 
 .pink {
-    border-radius: 4px;
     background: #FF4560;
 }
 
 .width {
     width: 50px;
     height: 50px;
+    border-radius: 4px;
 }
 
 .head {
@@ -441,8 +403,6 @@
     left: 50%;
 }
 
-
-
 .right::after {
     left: -13px;
 }
@@ -474,31 +434,19 @@
 
 .accordion-item {
 
-    border: 1px solid gray !important;
     margin-bottom: 10px;
     border-radius: 10px !important;
-    overflow: hidden;    
-        border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
-        backdrop-filter: blur(32px);
+    overflow: hidden;
+    backdrop-filter: blur(32px);
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+    border: 1px solid grey !important;
+    z-index: 4;
+    max-width: 1320px;
 }
 
-.accordion-header {
-    margin-bottom: 10px;
-    border: 1px !important;
-}
 
 .accordion-button:focus {
     box-shadow: none;
-}
-
-.accordion-item:first-of-type {
-    border-top-left-radius: unset;
-    border-top-right-radius: unset;
-}
-
-.accordion-item:last-of-type {
-    border-bottom-left-radius: unset;
-    border-bottom-right-radius: unset;
 }
 
 .pl-20 {
@@ -530,43 +478,45 @@
     color: #FFFFFF;
 }
 
-.mb-8 {
-    margin-bottom: -8px;
-}
-
-.card {
-    background-color: unset;
-    padding: 10px;
-}
 
 .card {
     padding: 45px;
     border-radius: 20px;
     border: 1px solid;
-
     border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
     background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
     backdrop-filter: blur(32px);
 }
-.around{
+
+.around {
+    backdrop-filter: blur(32px);
     border-radius: 20px;
-        border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
-        background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
 }
+
 .overflow-auto {
     overflow: auto;
 }
-.pr-20{
+
+.pr-20 {
     padding-right: 20px;
 }
-.pl-50{
-padding-left: 50px;
+
+.pl-50 {
+    padding-left: 50px;
 }
-.blur{
+
+.overflow-hidden {
+    overflow: hidden;
     right: 0;
-    bottom: 0;
-    
-    
+
+}
+
+
+@media(max-width:1199.98px) {
+    .info {
+        margin-left: 0px;
+    }
 }
 
 @media(max-width:991.98px) {
@@ -580,14 +530,13 @@ padding-left: 50px;
         width: 100%;
         background-color: black;
         transition: all 200ms linear;
+        z-index: 3;
     }
 
     .menu-list ul {
         flex-direction: column;
-        padding-left: 10%;
 
     }
-
 
     input:checked~.menu-list {
         right: 0;
@@ -613,8 +562,6 @@ padding-left: 50px;
 
     }
 
-
-
     input:checked~.menu-list {
         left: 0;
         z-index: 1;
@@ -636,13 +583,12 @@ padding-left: 50px;
         visibility: hidden;
     }
 
-    .info {
-        margin-left: 70px;
+    .hidden {
+        margin-top: 70px;
+        margin-bottom: 20px;
     }
 
 }
-
-
 
 @media (max-width:767.98px) {
     .main-heading {
@@ -674,12 +620,6 @@ padding-left: 50px;
     .hidden {
         margin-top: 50px;
     }
-
-    .info {
-        margin-left: 30px;
-    }
-
-
 }
 
 @media (max-width:575.98px) {
@@ -691,7 +631,6 @@ padding-left: 50px;
     .para-2 {
         font-size: 14px;
     }
-
 
     .btn-btm {
         font-size: 16px;
@@ -731,10 +670,7 @@ padding-left: 50px;
         left: 0%;
     }
 
-    .info {
-        margin-left: 0px;
-    }
-    .text{
+    .text {
         text-align: left;
     }
 }
@@ -747,10 +683,7 @@ padding-left: 50px;
 
     .btn-2 {
         margin-bottom: 20px;
-        margin-left: 20px;
+        margin-left: 30px;
 
     }
-
-
-
 }

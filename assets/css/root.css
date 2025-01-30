@@ -1,0 +1,111 @@
+:root {
+    /* font-size */
+    --fs-2xl: 96px;
+    --fs-xl: 64px;
+    --fs-lg: 48px;
+    --fs-md: 32px;
+    --fs-sm: 14px;
+
+
+
+    /* color */
+
+    --fc-white: #FFFFFF;
+    --fc-grey: grey;
+    --fc-light-white: #bdbdbd;
+    --fc-orange: #F06500;
+    --fc-purple: #8b35E2;
+    --fc-skyblue: #00B2FF;
+    --fc-yellow: #FFA800;
+    --fc-light-red: #FF4560;
+    --fc-light-black: #080000BF;
+    --fc-dark-black: #0c0B0B;
+    --fc-slate-gray: #4f4e4e;
+
+
+    /* font-weight */
+    --fw-sm: 400px;
+    --fw-md: 600px;
+}
+
+.fw-sm {
+    font-weight: var(--fw-sm);
+}
+
+.fw-md {
+    font-weight: var(--fw-md);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-2xl {
+    font-size: var(--fs-2xl) !important;
+}
+
+
+.fc-light-white {
+    color: var(--fc-light-white);
+}
+
+.fc-orange {
+    color: var(--fc-orange);
+}
+
+.bg-green {
+    background-color: var(--fc-green);
+}
+
+.bg-purple {
+    background-color: var(--fc-purple);
+}
+
+.bg-orange {
+    background-color: var(--fc-orange);
+}
+
+.bg-sky-blue {
+    background-color: var(--fc-sky-blue);
+}
+
+.bg-yellow {
+    background-color: var(--fc-yellow);
+}
+
+.bg-light-red {
+    background-color: var(--fc-light-red);
+}
+
+.bg-light-black {
+    background-color: var(--fc-light-black) !important;
+}
+
+.fc-dark-black {
+    color: var(--fc-dark-black) !important;
+}
+
+.fc-white-light {
+    color: var(--fc-white-light);
+}
+
+.fc-white {
+    color: var(--fc-white);
+}
+
+.poppins-font {
+    font-family: "Poppins", serif;
+}
+
