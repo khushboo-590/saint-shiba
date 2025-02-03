@@ -44,7 +44,7 @@
 
 .nav-top {
     background: #000000BF;
-    backdrop-filter: blur(16px);
+    backdrop-filter: blur(20px);
 }
 
 .m-p {
@@ -67,9 +67,7 @@
 
 }
 
-.logo:hover {
-    transform: scale(1.2);
-}
+
 
 .color {
     font-weight: 700;
@@ -169,7 +167,7 @@
 }
 
 .btn-2:hover {
-    color: blue;
+    color: black;
 }
 
 .pt-24 {
@@ -182,7 +180,6 @@
 
 .info {
     box-sizing: border-box;
-    margin-left: 100px;
     margin-top: 50px;
     gap: 10px;
     background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
@@ -256,12 +253,10 @@
     margin-top: 30px;
     margin-bottom: 10px;
     cursor: pointer;
+    border-radius: 50px;
+    background-color: rgba(12, 11, 11);
 }
 
-.box:hover {
-    background-color: rgba(12, 11, 11);
-    border-radius: 25px;
-}
 
 .circle:hover {
     background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
@@ -373,7 +368,7 @@
     width: 6px;
     background-color: #FFFFFF;
     top: 11px;
-    height: 78%;
+    height: 75%;
     left: 50%;
     margin-left: -3px;
 }
@@ -455,14 +450,14 @@
 }
 
 .color-black .accordion-button:not(.collapsed)::after {
-    background-image: url(/assets/images/svg/up.svg);
+    background-image: url(/assets/images/svg/down.svg);
     background-repeat: no-repeat;
     background-position: center;
     z-index: 1;
 }
 
-.color-black .accordion-button::after {
-    background-image: url(/assets/images/svg/down.svg);
+.color-black .accordion-button.collapsed::after {
+    background-image: url(/assets/images/svg/2.svg);
     background-repeat: no-repeat;
     background-position: center;
     z-index: 1;
@@ -491,9 +486,11 @@
 
 .around {
     backdrop-filter: blur(32px);
-    border-radius: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:10px ;
     background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
 }
+
 
 .overflow-auto {
     overflow: auto;
@@ -512,9 +509,10 @@
     right: 0;
 
 }
-.blur{
-    right:0;
-   
+
+.blur {
+    right: 0;
+
 }
 
 @media(max-width:1199.98px) {
