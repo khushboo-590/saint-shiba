@@ -4,7 +4,7 @@
     --fs-xl: 64px;
     --fs-lg: 48px;
     --fs-md: 32px;
-    --fs-sm: 14px;
+    --fs-sm: 18px;
 
 
 
@@ -21,18 +21,34 @@
     --fc-light-black: #080000BF;
     --fc-dark-black: #0c0B0B;
     --fc-slate-gray: #4f4e4e;
+    --bg-dark-black:#0c0B0B;
+    --bg-light-black:#080000BF;
+    --fc-green:#00E396;
 
+/* .....line-height.... */
+--lh-28: 28px;
+    --lh-1: 32.4px;
+    --lh-2: 33px;
+    --lh-3: 54px;
+    --lh-4: 61.44px;
+    --lh-5: 95.52px;
+    --lh-32: 32.4px;
+    --lh-33: 33px;
+    --lh-54: 54px;
+    --lh-61: 61.44px;
+    --lh-95: 95.52px;
+    
 
     /* font-weight */
     --fw-sm: 400px;
-    --fw-md: 600px;
+    --fw-lg: 700px;
 }
 
 .fw-sm {
     font-weight: var(--fw-sm);
 }
 
-.fw-md {
+.fw-lg {
     font-weight: var(--fw-md);
 }
 
@@ -78,7 +94,7 @@
 }
 
 .bg-sky-blue {
-    background-color: var(--fc-sky-blue);
+    background-color: var(--fc-skyblue);
 }
 
 .bg-yellow {
@@ -92,7 +108,9 @@
 .bg-light-black {
     background-color: var(--fc-light-black) !important;
 }
-
+.bg-dark-black{
+    background-color: var(--bg-dark-black);
+}
 .fc-dark-black {
     color: var(--fc-dark-black) !important;
 }
@@ -105,7 +123,62 @@
     color: var(--fc-white);
 }
 
+.lh-1 {
+    line-height: var(--lh-1) !important;
+}
+
+.lh-32 {
+    line-height: var(--lh-32) !important;
+}
+
+.lh-2 {
+    line-height: var(--lh-2) !important;
+}
+
+.lh-33 {
+    line-height: var(--lh-33) !important;
+}
+
+.lh-3 {
+    line-height: var(--lh-3) !important;
+}
+
+.lh-54 {
+    line-height: var(--lh-54) !important;
+}
+
+.lh-4 {
+    line-height: var(--lh-4) !important;
+}
+
+.lh-61 {
+    line-height: var(--lh-61) !important;
+}
+
+.lh-5 {
+    line-height: var(--lh-5) !important;
+}
+
+.lh-95 {
+    line-height: var(--lh-95) !important;
+}
+
 .poppins-font {
     font-family: "Poppins", serif;
 }
+ @media (max-width:968px) {
+    :root {
+        --fs-sm: 14px;
+        --fs-md: 18px;
+        --fs-xl: 24px;
+        --fs-2xl: 64px;
+       
+    }
+}
 
+
+@media (max-width:568px) {
+    :root {
+      
+        --fs-2xl: 48px;
+    }}

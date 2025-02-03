@@ -13,10 +13,9 @@
     max-width: 1320px;
 }
 
-.color-black {
-    background: #0C0B0B;
+.font-bold {
+    font-weight: 700;
 }
-
 .position-relative {
     position: relative;
 }
@@ -43,56 +42,17 @@
 }
 
 .nav-top {
-    background: #000000BF;
     backdrop-filter: blur(20px);
-}
-
-.m-p {
-    margin: 0;
-    padding: 0;
 }
 
 .py-10 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-.logo {
-    font-family: "Poppins" serif;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 54px;
-    text-align: left;
-    color: aliceblue;
-
-}
-
-
-
-.color {
-    font-weight: 700;
-    color: #F06500;
-
-}
-
-.orange {
-    color: #F06500;
-}
-
 .text-decoration {
     text-decoration: none;
 }
 
-.link {
-    font-family: "Poppins", serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 32.4px;
-    text-align: left;
-    color: #FFFFFF;
-    text-decoration: none;
-
-}
 
 .link:hover {
     text-decoration: underline;
@@ -104,24 +64,6 @@
     border-radius: 23.5px;
     padding: 7px 23px;
     border: none;
-    font-family: "Poppins", serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 32.4px;
-    text-align: left;
-    color: #FFFFFF;
-}
-
-.d-flex {
-    display: flex;
-}
-
-.align-center {
-    align-items: center;
-}
-
-.justify-between {
-    justify-content: space-between;
 }
 
 .gap-38 {
@@ -132,40 +74,22 @@
     padding-top: 150px;
 }
 
-.justify-center {
-    justify-content: center;
-}
-
-.main-heading {
-    font-family: "Poppins", serif;
-    font-size: 96px;
-    font-weight: 700;
-    line-height: 95.52px;
+.text-left {
     text-align: left;
-    color: #FFFFFF;
 }
 
 .para {
-
-    font-family: "Poppins", serif;
     font-size: 22px;
-    font-weight: 400;
-    line-height: 33px;
-    text-align: left;
-    color: #FFFFFF;
 }
 
 .btn-2 {
-
+    border: none;
     font-size: 22px;
     font-weight: 600;
-    line-height: 33px;
+    background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
     border-radius: 33px;
     padding: 12px 32px;
-
-
 }
-
 .btn-2:hover {
     color: black;
 }
@@ -200,8 +124,6 @@
 
 .max-w-1272 {
     max-width: 1272px;
-
-
 }
 
 
@@ -210,25 +132,12 @@
 }
 
 .heading {
-
-    font-family: "Poppins", serif;
-    font-size: 48px;
     font-weight: 600;
-    line-height: 61.44px;
-    text-align: left;
-    color: #FFFFFF;
-}
 
-.para-2 {
-    font-family: "Poppins", serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 32.4px;
-    text-align: left;
-    color: #FFFFFF;
+}
+.oppicity-1{
     opacity: 70%;
 }
-
 
 .oppicity {
     opacity: 100%;
@@ -264,43 +173,24 @@
 }
 
 .btn-head {
-    font-family: 'Poppins', serif;
     font-size: 22px;
     font-weight: 600;
-    line-height: 33px;
-    text-align: left;
-    color: #FFFFFF;
+  
 }
 
-.btn-btm {
-    font-family: 'Poppins', serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 32.4px;
-    text-align: left;
-    color: gray;
+.pt-40{
     padding-top: 40px;
 }
 
-
 .buying {
-    font-family: "Poppins", serif;
+  
     font-size: 14px;
-    font-weight: 400;
     line-height: 25.2px;
-    text-align: left;
-    color: #FFFFFF;
-    opacity: 70%;
 }
-
 .number {
-    font-family: "Poppins", serif;
     font-size: 28px;
     font-weight: 600;
     line-height: 42px;
-    text-align: left;
-    color: #FFFFFF;
-
 }
 
 .gap-20 {
@@ -315,31 +205,6 @@
     padding-bottom: 24px;
 }
 
-.green {
-    background: #00E396;
-}
-
-.orang {
-    background-color: #F06500;
-}
-
-.purple {
-    background: #8B35E2;
-}
-
-.skyblue {
-    background: #00B2FF;
-}
-
-.light-orange {
-    background: #FFA800;
-
-}
-
-.pink {
-    background: #FF4560;
-}
-
 .width {
     width: 50px;
     height: 50px;
@@ -347,12 +212,7 @@
 }
 
 .head {
-    color: #FFFFFF;
-    font-family: "Poppins", serif;
-    font-size: 18px;
     font-weight: 600;
-    line-height: 32.4px;
-    text-align: center;
 
 }
 
@@ -404,12 +264,10 @@
 }
 
 .phase {
-    font-family: "Poppins", serif;
+  
     font-size: 36px;
-    font-weight: 600;
-    line-height: 54px;
+    font-weight: 600;  
     text-align: right;
-    color: #FFFFFF;
 }
 
 .text-right {
@@ -479,18 +337,19 @@
     padding: 45px;
     border-radius: 20px;
     border: 1px solid;
-    border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
     background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
     backdrop-filter: blur(32px);
+
 }
 
-.around {
+table {
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     backdrop-filter: blur(32px);
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius:10px ;
-    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-top: none;
 }
-
 
 .overflow-auto {
     overflow: auto;
@@ -515,11 +374,6 @@
 
 }
 
-@media(max-width:1199.98px) {
-    .info {
-        margin-left: 0px;
-    }
-}
 
 @media(max-width:991.98px) {
     .menu-list {
@@ -593,27 +447,9 @@
 }
 
 @media (max-width:767.98px) {
-    .main-heading {
-        font-size: 80px;
-        line-height: 75px;
-    }
+    
 
-    .para {
-        font-size: 18px;
-    }
-
-    .para-2 {
-        font-size: 16px;
-        padding-left: 5px;
-        text-align: center;
-    }
-
-    .heading {
-        font-size: 40px;
-        line-height: 51.44px;
-        text-align: center;
-    }
-
+    
     .btn-head {
         font-size: 18px;
         line-height: 25px;
@@ -622,23 +458,12 @@
     .hidden {
         margin-top: 50px;
     }
+    .main-heading{
+        font-size: var(--fs-lg);
+    }
 }
 
 @media (max-width:575.98px) {
-    .main-heading {
-        font-size: 54px;
-        line-height: 65px;
-    }
-
-    .para-2 {
-        font-size: 14px;
-    }
-
-    .btn-btm {
-        font-size: 16px;
-        line-height: 24px;
-        padding-top: 30px;
-    }
 
     .box {
         margin-bottom: 20px;
@@ -675,17 +500,17 @@
     .text {
         text-align: left;
     }
+             .pt-40{
+                padding-top: 20px;
+         }
+        
 }
 
 @media (max-width:320px) {
-    .main-heading {
-        font-size: 48px;
-        line-height: 55px;
-    }
 
     .btn-2 {
         margin-bottom: 20px;
         margin-left: 30px;
-
     }
+     
 }
